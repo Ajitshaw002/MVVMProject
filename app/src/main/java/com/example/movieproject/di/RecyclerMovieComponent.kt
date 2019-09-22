@@ -2,7 +2,7 @@ package com.example.movieproject.di
 
 import dagger.Component
 import javax.inject.Singleton
-import com.example.movieproject.MainActivity
+import com.example.movieproject.view.MainActivity
 
 
 

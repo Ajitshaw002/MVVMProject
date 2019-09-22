@@ -1,4 +1,4 @@
-package com.example.movieproject
+package com.example.movieproject.view
 
 import android.content.Intent
 import android.content.res.Configuration
@@ -15,8 +15,8 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.core.view.ViewCompat
 import androidx.core.app.ActivityOptionsCompat
 import androidx.paging.PagedList
+import com.example.movieproject.R
 import com.example.movieproject.di.DaggerRecyclerMovieComponent
-import com.example.movieproject.di.MovieListServiceModule
 import com.example.movieproject.di.RecyclerMovieComponent
 import com.example.movieproject.di.RecyclerMovieModule
 import com.example.movieproject.model.Result

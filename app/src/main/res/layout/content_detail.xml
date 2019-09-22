@@ -10,7 +10,7 @@
             tools:showIn="@layout/activity_detail"
             android:layout_width="match_parent"
             android:orientation="vertical"
-            tools:context=".DetailActivity"
+            tools:context=".view.DetailActivity"
             android:layout_height="match_parent">
         <LinearLayout
                 android:layout_width="match_parent"

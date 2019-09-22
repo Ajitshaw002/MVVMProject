@@ -30,8 +30,10 @@ class MainActivityViewModel(application: Application) : AndroidViewModel(applica
     // var mainActivityRepo: MainActivityRepo
     @Inject
     lateinit var movieListService: MovieListService
+
     @Inject
     lateinit var dataSourceFactory: DataSourceFactory
+
      var viewModelComponent: ViewModelComponent
 
     var executer: Executor

@@ -27,7 +27,7 @@ class MainActivityRepo(var application: Application){
         call.enqueue(object : Callback<MovieListExample> {
             override fun onFailure(call: Call<MovieListExample>, t: Throwable) {
                 Log.d("WebAccess", "fail")
-                Toast.makeText(application,"Some problem occur please try after somtime", Toast.LENGTH_LONG).show()
+                Toast.makeText(application,"Some problem occur please try after someetime", Toast.LENGTH_LONG).show()
 
             }
 

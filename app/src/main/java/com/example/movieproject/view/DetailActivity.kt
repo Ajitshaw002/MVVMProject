@@ -1,8 +1,7 @@
-package com.example.movieproject
+package com.example.movieproject.view
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_detail.*
 import android.os.Build
@@ -11,9 +10,7 @@ import androidx.databinding.DataBindingUtil
 import com.bumptech.glide.Glide
 import com.example.movieproject.databinding.ActivityDetailBinding
 import com.example.movieproject.model.Result
-import android.content.Intent
-
-
+import com.example.movieproject.R
 
 
 class DetailActivity : AppCompatActivity() {
@@ -21,7 +18,9 @@ class DetailActivity : AppCompatActivity() {
     @SuppressLint("ObsoleteSdkInt")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        activityDetailBinding =DataBindingUtil.setContentView(this,R.layout.activity_detail)
+        activityDetailBinding =DataBindingUtil.setContentView(this,
+            R.layout.activity_detail
+        )
         //set toolbar
         setSupportActionBar(toolbar)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
